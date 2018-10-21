@@ -2,6 +2,8 @@
 #include <ESP8266WiFi.h>
 #include <Wire.h>
 #include <BME280_t.h>
+#include <secret.h>
+
 #define ASCII_ESC 27
 #define MYALTITUDE  100.50
 
@@ -11,13 +13,13 @@ float analog;
 // const float MAXIMUM_VOLTAGE = ;
 // const float COEFF = ;
 
-const char* ssid = "The Unicorns Sont Nos Amies";
-const char* password = "Z47pQchWu9U3FmuG2LNN9YLc";
+const char* ssid = secret_ssid;
+const char* password = secret_password;
 
 char bufout[10];
 
 BME280<> BMESensor;
-
+Ticker pushTicker;
 WiFiServer server(80);
 
 void setup()
