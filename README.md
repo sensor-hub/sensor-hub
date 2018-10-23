@@ -1,8 +1,8 @@
 # sensor-hub
 ## Hardware
 This first version uses only two sensors : a current probe, and a temperature/humidity sensor :
-	- SCT-013 : a current transformer. Gives 50mA out for a 100A current.
-	- Bosch BME280 : measures temperature and humidity.
+1. SCT-013 : a current transformer. Gives 50mA out for a 100A current.
+2. Bosch BME280 : measures temperature and humidity.
 
 ### Current probe
 Since we don't measure the mains' voltage, we cannot measure the power factor (phase between the current and voltage). So we use a hardware peak detector to ease the measuring work of the ESP32 chip.
