@@ -9,4 +9,4 @@ Since we don't measure the mains' voltage, we cannot measure the power factor (p
 The peak detector is done with an op-amp and a diode, the simulations and schematics can be found in the `hardware` folder.
 
 ### Temperature/Humidity
-The BME280 can talk with the ESP32 in I2C. That's what we do. I2C will work over tens of meters, with cheap ethernet cable.
+The BME280 can talk with the ESP8266 in I2C. That's what we do. I2C will work over tens of meters, with cheap ethernet cable.
