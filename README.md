@@ -10,3 +10,7 @@ The peak detector is done with an op-amp and a diode, the simulations and schema
 
 ### Temperature/Humidity
 The BME280 can talk with the ESP8266 in I2C. That's what we do. I2C will work over tens of meters, with cheap ethernet cable.
+
+## Ressources
+The following links were useful in this project :
+- https://poweruc.com/blogs/news/non-invasive-sensor-yhdc-sct013-000-ct-used-with-arduino-sct-013
