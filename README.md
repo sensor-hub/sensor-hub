@@ -14,3 +14,4 @@ The BME280 can talk with the ESP8266 in I2C. That's what we do. I2C will work ov
 ## Ressources
 The following links were useful in this project :
 - https://poweruc.com/blogs/news/non-invasive-sensor-yhdc-sct013-000-ct-used-with-arduino-sct-013
+- https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/interface-with-arduino
