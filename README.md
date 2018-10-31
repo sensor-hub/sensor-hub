@@ -1,3 +1,5 @@
+This project is meant for an ESP8266.
+
 # sensor-hub
 ## Hardware
 This first version uses only two sensors : a current probe, and a temperature/humidity sensor :
